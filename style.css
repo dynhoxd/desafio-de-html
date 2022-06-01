@@ -1,0 +1,94 @@
+:root {
+    --fundo: #40E0D0;
+}
+
+body>header {
+    position: relative;
+    top: 0%;
+    background-color: var(--fundo);
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    margin: 0%;
+    margin-left: .4rem;
+    font-size: 3rem;
+    padding: .9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(19, 76, 233);
+}
+.insta:hover {
+    color: rgb(196, 40, 144);
+}
+.github:hover {
+    color: rgb(113, 40, 196);
+}
+body>article {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: fit-content;
+}
+img {
+    height: 2vw;
+    min-height: 30px;
+    margin-right: .5vw;
+}
+
+.divimg {
+    display: flex;
+    align-items: center;
+}
+
+iframe {
+    height: 32.8vw;
+    width: 30vw;
+    min-height: 340px;
+    min-width: 286px;
+    position: absolute;
+    right: 1.5%;
+    top: 13.5%;
+    border: 1px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    width: 100%;
+    padding: .7rem;
+    box-sizing: border-box;
+}
+
+footer>header {
+    margin-right: 2rem;
+}
+footer>section {
+    display: flex;
+}
+body {
+    margin: 0%;
+}
+body::after {
+    content: "";
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
